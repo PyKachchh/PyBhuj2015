@@ -1,32 +1,50 @@
-Worthy - Free Bootstrap Template
+PyBhuj 2015 - PyKachchh Python Workshop
 =======================================================================
 
-Worhty is a Multipurpose One Page Template based on Bootstrap 3 Framework. 
-You can use it for corporate, business and agency webpages as well as 
-portfolio and personal webpages.
+Coding guidlines
+------------------------------------------------------
+**Tabs Vs Space**
+The default branch was created with fucking Tabs! Coding with tabs is pain in ass.
+To minimize the initial diff we will use 2 spaces while coding and 1 tab while committing.
+Fortunatily git and linux is enough to solve this problem.
+This is for HTML only. We can do the same for CSS and JS.
+Follow the below steps (for Linux only):
 
-If you like the template and find it useful, please help us spread the word :-)
+In your repository, add a file .git/info/attributes which contains:
 
-- Theme version: v1.0
-- Release Date: 13 Nov 2014
-- Author: HtmlCoder (http://htmlcoder.me)
-- Contact: http://htmlcoder.me/contact
+`*.html  filter=tabspace`
 
-Live Preview
-=======================================================================
-http://www.htmlcoder.me/preview/worthy/v.1.0
+Now run the commands:
 
-License
-=======================================================================
-Worthy is released under the Creative Commons Attribution 3.0 License
-https://creativecommons.org/licenses/by/3.0/
+`git config filter.tabspace.smudge 'expand --tabs=2 --initial'
+git config  filter.tabspace.clean 'unexpand --tabs=2 --first-only'`
+
+You may now check out all the files of your project. You can do that with:
+
+`git checkout HEAD -- **`
+
+[Reference](http://stackoverflow.com/questions/2316677/can-git-automatically-switch-between-spaces-and-tabskj)
+
+Notes
+-------------------------------------------------------
+Please use (tilde)(tilde)text(tilde)(tilde) to denote that the item in TODO has been completed.
+DO NOT remove it entirely from the list. (refer to GitHub Markdown for further references.
+Everyone is free to add TODO items.
+Other than adding TODO items and identifying bugs, let's keep suggestions etc in our official group.
+
+TODOS:
+-------------------------------------------------------
+- Logo
+- Proper theme colors and font colors.
+- Workshop description
+- About workshop description/content
+- Talk details
+- Portfolio/Showcase section
+- Sponsors
+- Contact Us / Register
 
 Credits
 =======================================================================
-
-Demo images
-------------------------------------------------------
-- Unsplash by Crew - http://unsplash.com/
 
 Fonts
 ------------------------------------------------------
@@ -42,3 +60,7 @@ Resources
 - Animate CSS by Daniel T. Eden - http://daneden.github.io/animate.css/
 - Isotope Jquery plugin by metafizzy.co - http://isotope.metafizzy.co/
 - Backstrech by Scott Robbin - http://srobbin.com/jquery-plugins/backstretch/
+
+Acknoledgments
+-------------------------------------------------------
+The theme has been taken from [htmlcoder](http://htmlcoder.me/) and we thank them for providing a cool theme for free.
