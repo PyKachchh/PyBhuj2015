@@ -1,8 +1,12 @@
-/* Theme Name: Worthy - Free Powerful Theme by HtmlCoder
- * Author:HtmlCoder
- * Author URI:http://www.htmlcoder.me
- * Version:1.0.0
- * Created:November 2014
- * License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
- * File Description: Place here your custom scripts
- */
+$("#count-down").TimeCircles({
+	circle_bg_color: "#8a7f71",
+	use_background: true,
+	bg_width: 0.8,
+	fg_width: 0.02,
+	time: {
+		Days: { color: "#D55C86" },
+		Hours: { color: "#D55C86" },
+		Minutes: { color: "#D55C86" },
+		Seconds: { color: "#D55C86" }
+	}
+});
