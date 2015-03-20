@@ -239,6 +239,10 @@ blockquote {
 	background: url("../images/bg-image-2.jpg") 50% 0px no-repeat;
 }
 
+.bg-bhuj-google-map {
+	background: url("../images/bg-bhuj-google-map.jpg") 50% 0px no-repeat;
+}
+
 /* Misc
 ----------------------------------------------------------------------------- */
 .object-non-visible {
