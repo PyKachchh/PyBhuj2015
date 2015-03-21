@@ -723,3 +723,6 @@ textarea {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
+a.no-style-link {
+  text-decoration: none;
+}
