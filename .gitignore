@@ -1,0 +1,16 @@
+/node_modules
+/npm-debug.log
+
+/test/assets/package-*/
+/test/assets/temp-*/
+/test/reports
+/test/tmp/
+
+/bower_components
+
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
